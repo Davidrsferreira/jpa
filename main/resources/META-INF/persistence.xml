@@ -12,7 +12,7 @@
             <property name="hibernate.format_sql" value="true"/>
 
             <!-- Validate database schema, data loss can occur if set to create or update -->
-            <property name="hibernate.hbm2ddl.auto" value="create"/>
+            <property name="hibernate.hbm2ddl.auto" value="validate"/>
 
             <!-- Turn on for debug -->
             <property name="hibernate.show_sql" value="true"/>
