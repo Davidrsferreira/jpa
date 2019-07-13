@@ -5,7 +5,7 @@ import org.escoladocodigo.mapping.inheritancemapping.mappedsuperclass.model.Cust
 import org.escoladocodigo.mapping.inheritancemapping.mappedsuperclass.service.AccountService;
 import org.escoladocodigo.mapping.inheritancemapping.mappedsuperclass.service.CustomerService;
 
-public class Main {
+public class MappedSuperClassMain {
 
     public static void main(String[] args) {
 
