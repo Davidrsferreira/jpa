@@ -3,7 +3,7 @@ package org.escoladocodigo.mapping.inheritancemapping.singletable.model;
 import javax.persistence.*;
 
 @Entity (name = "VehicleSingleTable")
-@Table (name = "vehicle")
+@Table (name = "vehicle_single")
 @Inheritance (strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(
         name = "vehicle_type",
