@@ -1,8 +1,8 @@
-package org.escoladocodigo.mapping;
+package org.escoladocodigo.mapping.componentmapping;
 
-import org.escoladocodigo.mapping.model.Adress;
-import org.escoladocodigo.mapping.model.Student;
-import org.escoladocodigo.mapping.service.Service;
+import org.escoladocodigo.mapping.componentmapping.model.Adress;
+import org.escoladocodigo.mapping.componentmapping.model.Student;
+import org.escoladocodigo.mapping.componentmapping.service.Service;
 
 public class Main {
 

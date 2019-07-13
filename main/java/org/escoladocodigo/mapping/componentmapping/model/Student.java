@@ -1,4 +1,4 @@
-package org.escoladocodigo.mapping.model;
+package org.escoladocodigo.mapping.componentmapping.model;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;

@@ -1,11 +1,12 @@
-package org.escoladocodigo.mapping.service;
+package org.escoladocodigo.mapping.componentmapping.service;
 
-import org.escoladocodigo.mapping.model.Student;
+import org.escoladocodigo.mapping.componentmapping.model.Student;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.RollbackException;
+
 
 public class Service {
 
@@ -56,6 +57,9 @@ public class Service {
     }
 
     public void close(){
-        emf.close();
+
+        if (emf != null){
+            emf.close();
+        }
     }
 }
